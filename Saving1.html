@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Hlo there !!!
+        </title>
+        <style>
+            .button {
+              color: #181818;
+              padding: 15px 32px;
+              text-align: center;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+
+            .button1 {background-color: #34a5e6 ;}
+        </style>
+        <script type = "text/javascript" src="Saving1.js"></script>
+    </head>
+    <body>
+        <h1 style="color: #34a5e6">Saving Calculator</h1>
+        <p style="font-size:20px">How much do I need to save each week/month to reach my goal?</p>
+        <!-- <h4>How much do I need to save each week/month to reach my goal?</h4> -->
+        <p>What is your savings goal? (in £) *</p>
+        <input type="text" id="G">
+        <p style="font-size:25px; color: #34a5e6">When do you need your savings by?</p>
+        <form action="#">
+            <h5>Month* &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Year*</h5>
+             <select name="duration" id="month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+                &nbsp &nbsp 
+            <select name="duration" id="year">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2010">2031</option>
+            <option value="2011">2032</option>
+            <option value="2012">2033</option>
+            <option value="2014">2034</option>
+            <option value="2015">2035</option>
+            <option value="2016">2036</option>
+            <option value="2017">2037</option>
+            <option value="2018">2038</option>
+            <option value="2019">2039</option>
+            <option value="2020">2040</option>
+            <option value="2021">2041</option>
+            <option value="2022">2042</option>
+            <option value="2020">2043</option>
+            <option value="2021">2044</option>
+            <option value="2022">2045</option>
+            <option value="2020">2046</option>
+            <option value="2021">2047</option>
+            <option value="2022">2048</option>
+            <option value="2020">2049</option>
+            <option value="2021">2050</option>
+            </select>
+      </form>
+
+        <p>How much have you saved already? (in £) *</p>
+        <input type="text" id="S">
+
+        <p>Gross annual interest rate on your savings (in %)</p>
+        <input type="text" id="I"><br><br>
+
+        <button class="button">Back</button>
+        <button class="button button1" onclick = "si1()">Next</button>
+
+        <div id="res1"></div>
+
+    </body>
